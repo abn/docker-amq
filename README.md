@@ -1,0 +1,2 @@
+# docker-amq
+Containerzied AMQ
