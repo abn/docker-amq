@@ -3,7 +3,7 @@ FROM centos:7
 RUN yum -y install wget tar java
 RUN yum -y clean all
 
-ENV ACTIVEMQ_VERSION=5.12.2
+ENV ACTIVEMQ_VERSION=5.13.0
 ENV ACTIVEMQ_MIRROR=http://apache.mirror.uber.com.au
 ENV ACTIVEMQ_URL_PATH=activemq/${ACTIVEMQ_VERSION}/apache-activemq-${ACTIVEMQ_VERSION}-bin.tar.gz
 ENV ACTIVEMQ_SOURCE=${ACTIVEMQ_MIRROR}/${ACTIVEMQ_URL_PATH}
